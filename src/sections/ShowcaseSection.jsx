@@ -71,9 +71,20 @@ const AppShowcase = () => {
               <h2>Weather app</h2>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]"></div>
-              <h2>Upcomming project</h2>
+            <div className="project relative" ref={ycDirectoryRef}>
+              <div className="image-wrapper relative h-64 w-full">
+                <img
+                  src="/images/your-upcoming-image.jpg"
+                  alt="Upcoming Project"
+                  className="h-full w-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-60" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <h2 className="text-white text-2xl font-semibold">
+                    Upcoming projects...
+                  </h2>
+                </div>
+              </div>
             </div>
           </div>
         </div>

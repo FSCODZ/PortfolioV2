@@ -49,20 +49,8 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "Cloud developer",
-    imgPath: "/images/logos/aws.png",
-  },
-  {
-    name: "Database ",
-    imgPath: "/images/logos/database.jpg",
-  },
-  {
     name: "GraphQL",
-    imgPath: "/images/logos/graphql.png",
-  },
-  {
-    name: "Tailwind",
-    imgPath: "/images/logos/tailwind.png",
+    imgPath: "/images/logos/graphql.svg",
   },
 ];
 
@@ -74,9 +62,27 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
+    name: "MySQL",
+    modelPath: "/models/mysql.glb",
+    scale: 1.5,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Tailwind",
+    modelPath: "/models/tailwind.glb",
+    scale: 1.5,
+    rotation: [0, 0, 0],
+  },
+  {
     name: "Python Developer",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Cloud Developer",
+    modelPath: "/models/aws_logo.glb",
+    scale: 0.4,
     rotation: [0, 0, 0],
   },
   {
@@ -84,6 +90,18 @@ const techStackIcons = [
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "Database",
+    modelPath: "/models/database.glb",
+    scale: 2.4,
+    rotation: [0, 0.1, 0],
+  },
+  {
+    name: "Typescript",
+    modelPath: "/models/typescript.glb",
+    scale: 1.5,
+    rotation: [0, 0.1, 0],
   },
   {
     name: "Interactive Developer",
