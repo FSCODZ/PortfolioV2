@@ -1,6 +1,5 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
@@ -44,7 +43,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Filip Stojanovic, a junior developer with a passion for
+              Hi, I'm Filip Stojanovic, a junior developer with a passion for
               code and technology.
             </p>
 
@@ -57,10 +56,12 @@ const Hero = () => {
         </header>
       </div>
 
-      {/*FUTURE PCITURE OF ME */}
-
-      <div>
-        <img></img>
+      <div className="hero-3d-layout hero-image md:w-1/2 w-full flex justify-center md:justify-end px-5 md:px-10 mt-20 md:mt-50">
+        <img
+          src="/images/binary-coding.png"
+          alt="Filip Stojanovic"
+          className="max-w-full h-auto object-contain md:max-h-[80vh]"
+        />
       </div>
 
       <AnimatedCounter />
