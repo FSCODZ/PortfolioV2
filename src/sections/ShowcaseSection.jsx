@@ -54,8 +54,8 @@ const AppShowcase = () => {
             <div className="text-content">
               <h2>Find your next movie to watch, called Moviefind.</h2>
               <p className="text-white-50 md:text-xl">
-                An website built with next.js, typescript, free api for movies,
-                & TailwindCSS for a fast, user-friendly experience.
+                An website built with next.js, typescript, & TailwindCSS for a
+                fast, user-friendly experience.
               </p>
             </div>
           </div>
