@@ -32,18 +32,18 @@ const counterItems = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Driven and motivated",
+    desc: "Always driven and motivated to learn new technologies",
   },
   {
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    desc: "Communicating well with others and team to grow togheter ",
   },
   {
     imgPath: "/images/time.png",
     title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    desc: "Making sure projects/tickets are completed on schedule, with quality & attention to details.",
   },
 ];
 
@@ -51,6 +51,14 @@ const techStackImgs = [
   {
     name: "GraphQL",
     imgPath: "/images/logos/graphql.svg",
+  },
+   {
+    name: "AngularJS",
+    imgPath: "/images/logos/angular.svg",
+  },
+   {
+    name: "AWS",
+    imgPath: "/images/logos/aws.svg",
   },
 ];
 
@@ -79,30 +87,26 @@ const techStackIcons = [
     scale: 0.8,
     rotation: [0, 0, 0],
   },
+ 
   {
-    name: "Cloud Developer",
-    modelPath: "/models/aws_logo.glb",
-    scale: 0.4,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
+    name: "Node.js",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Database",
+    name: "Database integreation",
     modelPath: "/models/database.glb",
     scale: 2.4,
     rotation: [0, 0.1, 0],
   },
   {
-    name: "Typescript",
-    modelPath: "/models/typescript.glb",
-    scale: 1.5,
-    rotation: [0, 0.1, 0],
+    name: "Docker",
+    modelPath: "/models/docker.glb",
+    scale: 9.5,
+    rotation: [0, 0, 0],
   },
+ 
   {
     name: "Interactive Developer",
     modelPath: "/models/three.js-transformed.glb",
@@ -148,11 +152,15 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+            link: "https://www.linkedin.com/in/filip-stojanovic-914446358/",
+
   },
 
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+        link: "https://www.linkedin.com/in/filip-stojanovic-914446358/",
+
   },
 ];
 
