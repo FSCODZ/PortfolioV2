@@ -2,6 +2,8 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import TechIconCardExperience from "../components/models/tech_logos/TechIconCardExperience";
+import { techStackIcons } from "../constants";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,26 +51,26 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/fullstack1.png" alt="InterPrep" />
             </div>
             <div className="text-content">
-              <h2>Find your next movie to watch, called Moviefind.</h2>
+              <h2>InterPrep: A job interview preparation platform powered by Vapi AI Voice agents
+</h2>
               <p className="text-white-50 md:text-xl">
-                An website built with next.js, typescript, & TailwindCSS for a
-                fast, user-friendly experience.
+                A job interview platform built with Next.js, Firebase, TailwindCSS, and Vapi AI for a modern, voice-driven experience.
+
               </p>
             </div>
           </div>
-
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/project1.png"
+                  alt="Moviebase on a free api"
                 />
               </div>
-              <h2>Weather app</h2>
+              <h2>Moviefinder</h2>
             </div>
 
             <div className="project relative" ref={ycDirectoryRef}>

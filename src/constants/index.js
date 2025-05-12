@@ -95,7 +95,7 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Database integreation",
+    name: "Database knowledge",
     modelPath: "/models/database.glb",
     scale: 2.4,
     rotation: [0, 0.1, 0],
@@ -112,6 +112,11 @@ const techStackIcons = [
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
+  },
+  {
+    name: "Firebase",
+    modelPath: "/models/firebase.glb",
+    scale: 2.5,
   },
 ];
 
