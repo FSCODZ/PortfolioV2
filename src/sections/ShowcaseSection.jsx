@@ -68,6 +68,7 @@ const AppShowcase = () => {
                 <img
                   src="/images/project1.png"
                   alt="Moviebase on a free api"
+                  
                 />
               </div>
               <h2>Moviefinder</h2>

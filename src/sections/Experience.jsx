@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
+import CampcationLogo from "../components/Campcation";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -115,8 +116,7 @@ const Experience = () => {
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" />
-                      </div>
+<CampcationLogo/>                      </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
                         <p className="my-5 text-white-50">

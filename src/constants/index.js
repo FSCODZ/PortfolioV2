@@ -123,18 +123,19 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Filip brought creativity and technical solutions to the team, significantly improving our frontend performance and accesibility. His work has been invaluable in delivering faster and user friendly experiences.",
-    imgPath: "/images/exp1.png",
+"Filip contributed creative ideas and technical expertise that noticeably enhanced our frontend performance and accessibility. His work played a key role in delivering a faster, more user-friendly experience for our users."    imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
     date: "November 2024 - May 2025",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Campcation website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-      "Developed features to the website",
-      "Integreted with database",
-    ],
+  responsibilities: [
+  "Collaborated within an agile frontend team following a structured roadmap, including participation in daily stand-ups, retrospectives, and grooming sessions.",
+  "Integrated frontend components with backend systems using AWS and MySQL, enabling dynamic data handling and real-time updates.",
+  "Contributed to the planning and implementation of a larger feature from Figma design to production, including breaking down designs into actionable development tickets and estimating timeframes.",
+  "Defined and created new data types and state management structures to support a customer review feature across the website.",
+  "Refactored and optimized existing components to align with modern UX/UI standards, improving usability and responsiveness.",
+  "Worked closely with designers and stakeholders to ensure pixel-perfect implementation of UI designs and consistent user interactions across devices."
+]
+
   },
 ];
 
