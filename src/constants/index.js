@@ -120,6 +120,25 @@ const techStackIcons = [
   },
 ];
 
+const projects = [
+  {
+    title: "InterPrep",
+    image: "/images/fullstack1.png",
+    stack: ["Next.js", "Firebase", "Tailwind CSS", "Vapi AI"],
+  },
+  {
+    title: "Moviefinder",
+    image: "/images/project1.png",
+    stack: ["React", "TMDB API", "Tailwind CSS"],
+  },
+  {
+    title: "NextTrip",
+    image: "/images/project5.png",
+    stack: ["Next.js", "Tailwind CSS", "Sentry", "Stripe"],
+  },
+];
+
+
 const expCards = [
   {
     review:
@@ -180,5 +199,6 @@ export {
   socialImgs,
   techStackIcons,
   techStackImgs,
+  projects,
   navLinks,
 };
