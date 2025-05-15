@@ -123,7 +123,8 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-"Filip contributed creative ideas and technical expertise that noticeably enhanced our frontend performance and accessibility. His work played a key role in delivering a faster, more user-friendly experience for our users."    imgPath: "/images/exp1.png",
+  "Filip contributed creative ideas and technical expertise that noticeably enhanced our frontend performance and accessibility. His work played a key role in delivering a faster, more user-friendly experience for our users." ,  
+   imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
     date: "November 2024 - May 2025",
