@@ -120,23 +120,43 @@ const techStackIcons = [
   },
 ];
 
-const projects = [
+ const projects = [
   {
     title: "InterPrep",
     image: "/images/fullstack1.png",
-    stack: ["Next.js", "Firebase", "Tailwind CSS", "Vapi AI"],
+    
+    stack: [
+      { name: "Next.js", imgPath: "/images/logos/nextjs.svg" },
+      { name: "Firebase", imgPath: "/images/logos/firebase.svg" },
+      { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },
+      { name: "Vapi AI", imgPath: "/images/logos/vapi.jpeg" }, 
+      { name: "Three.js", imgPath: "/images/logos/threejs.svg" },
+
+    ],
   },
   {
     title: "Moviefinder",
     image: "/images/project1.png",
-    stack: ["React", "TMDB API", "Tailwind CSS"],
+    
+    stack: [
+      { name: "Next.js", imgPath: "/images/logos/nextjs.svg" },
+      { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },
+    ],
   },
   {
     title: "NextTrip",
     image: "/images/project5.png",
-    stack: ["Next.js", "Tailwind CSS", "Sentry", "Stripe"],
+    stack: [
+      { name: "Next.js", imgPath: "/images/logos/nextjs.svg" },
+      { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },
+      { name: "Stripe", imgPath: "/images/logos/stripe.svg" },
+      { name: "Sentry", imgPath: "/images/logos/sentry.svg" },
+      { name: "Appwrite", imgPath: "/images/logos/appwrite.svg" },
+
+    ],
   },
 ];
+
 
 
 const expCards = [
