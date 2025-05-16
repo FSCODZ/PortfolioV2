@@ -126,7 +126,7 @@ const techStackIcons = [
     image: "/images/fullstack1.png",
     
     stack: [
-      { name: "Next.js", imgPath: "/images/logos/nextjs.svg" },
+      { name: "Next.js", imgPath: "/images/logos/next.svg" },
       { name: "Firebase", imgPath: "/images/logos/firebase.svg" },
       { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },
       { name: "Vapi AI", imgPath: "/images/logos/vapi.jpeg" }, 
@@ -139,7 +139,7 @@ const techStackIcons = [
     image: "/images/project1.png",
     
     stack: [
-      { name: "Next.js", imgPath: "/images/logos/nextjs.svg" },
+      { name: "Next.js", imgPath: "/images/logos/next.svg" },
       { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },
     ],
   },
@@ -147,10 +147,10 @@ const techStackIcons = [
     title: "NextTrip",
     image: "/images/project5.png",
     stack: [
-      { name: "Next.js", imgPath: "/images/logos/nextjs.svg" },
+      { name: "vite", imgPath: "/images/logos/vite.jpeg" },
       { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },
-      { name: "Stripe", imgPath: "/images/logos/stripe.svg" },
-      { name: "Sentry", imgPath: "/images/logos/sentry.svg" },
+      { name: "Stripe", imgPath: "/images/logos/stripeicon.jpeg" },
+      { name: "Sentry", imgPath: "/images/logos/sentryicon.jpeg" },
       { name: "Appwrite", imgPath: "/images/logos/appwrite.svg" },
 
     ],
