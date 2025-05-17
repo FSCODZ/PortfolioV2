@@ -124,6 +124,7 @@ const techStackIcons = [
   {
     title: "InterPrep",
     image: "/images/fullstack1.png",
+    link:"https://mock-interview-pink-gamma.vercel.app/",
     
     stack: [
       { name: "Next.js", imgPath: "/images/logos/next.svg" },
@@ -137,6 +138,8 @@ const techStackIcons = [
   {
     title: "Moviefinder",
     image: "/images/project1.png",
+    link:"https://next-to-watch.netlify.app/?timeWindow=day",
+
     
     stack: [
       { name: "Next.js", imgPath: "/images/logos/next.svg" },
@@ -146,6 +149,8 @@ const techStackIcons = [
   {
     title: "NextTrip",
     image: "/images/project5.png",
+    link:"https://next-trip-tawny.vercel.app/",
+
     stack: [
       { name: "vite", imgPath: "/images/logos/vite.jpeg" },
       { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },

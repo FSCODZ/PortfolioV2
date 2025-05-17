@@ -53,17 +53,26 @@ const AppShowcase = () => {
       className="w-full h-full object-cover"
     />
 
-    <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-4 transition-opacity duration-300">
-      {projects[0].stack.map((tech) => (
-        <img
-          key={tech.name}
-          src={tech.imgPath}
-          alt={tech.name}
-          title={tech.name}
-          className="w-10 h-10"
-        />
-      ))}
-    </div>
+  <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-4 transition-opacity duration-300">
+  {projects[0].stack.map((tech) => (
+    <img
+      key={tech.name}
+      src={tech.imgPath}
+      alt={tech.name}
+      title={tech.name}
+      className="w-10 h-10"
+    />
+  ))}
+  <a
+    href={projects[0].link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="absolute inset-0 z-10"
+  >
+    <span className="sr-only">Open project</span>
+  </a>
+</div>
+
   </div>
 
   <div className="text-content mt-4">
@@ -94,17 +103,25 @@ const AppShowcase = () => {
                     {project.title}
                   </h2>
 
-                  <div className="absolute inset-0 flex items-center justify-center gap-4 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    {project.stack.map((tech) => (
-                      <img
-                        key={tech.name}
-                        src={tech.imgPath}
-                        alt={tech.name}
-                        title={tech.name}
-                        className="w-8 h-8"
-                      />
-                    ))}
-                  </div>
+                <div className="absolute inset-0 flex items-center justify-center gap-4 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+  {project.stack.map((tech) => (
+    <img
+      key={tech.name}
+      src={tech.imgPath}
+      alt={tech.name}
+      title={tech.name}
+      className="w-8 h-8"
+    />
+  ))}
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="absolute inset-0 z-10"
+  >
+  </a>
+</div>
+
                 </div>
               </div>
             ))}
