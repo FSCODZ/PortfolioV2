@@ -213,6 +213,12 @@ const socialImgs = [
         link: "https://www.linkedin.com/in/filip-stojanovic-914446358/",
 
   },
+   {
+    name: "Github",
+    imgPath: "/images/github.svg",
+        link: "https://github.com/FSCODZ",
+
+  },
 ];
 
 export {
