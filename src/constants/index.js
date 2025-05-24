@@ -57,6 +57,10 @@ const techStackImgs = [
     imgPath: "/images/logos/angular.svg",
   },
    {
+    name: "Vue.js",
+    imgPath: "/images/logos/vue.svg",
+  },
+   {
     name: "AWS",
     imgPath: "/images/logos/aws.svg",
   },
