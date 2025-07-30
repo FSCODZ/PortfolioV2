@@ -141,10 +141,10 @@ const techStackIcons = [
     ],
   },
   {
-    title: "Moviefinder",
-    image: "/images/project1.png",
-    link:"https://next-to-watch.netlify.app/?timeWindow=day",
-        githubLink:"https://github.com/FSCODZ/moviefinder",
+    title: "CVision",
+    image: "/images/project7.png",
+    link:"https://ai-analyze-cv.vercel.app/",
+        githubLink:"https://github.com/FSCODZ/ai-analyze-cv",
 
 
     
