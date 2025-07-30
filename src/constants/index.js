@@ -144,12 +144,12 @@ const techStackIcons = [
     title: "CVision",
     image: "/images/project7.png",
     link:"https://ai-analyze-cv.vercel.app/",
-        githubLink:"https://github.com/FSCODZ/ai-analyze-cv",
+    githubLink:"https://github.com/FSCODZ/ai-analyze-cv",
 
 
     
     stack: [
-      { name: "Next.js", imgPath: "/images/logos/next.svg" },
+      { name: "vite", imgPath: "/images/logos/vite.jpeg" },
       { name: "Tailwind CSS", imgPath: "/images/logos/tailwind.png" },
     ],
   },
